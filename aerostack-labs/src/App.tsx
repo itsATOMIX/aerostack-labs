@@ -15,10 +15,13 @@ import BentoSection from "./components/BentoSection";
 import Philosophy from "./components/Philosophy";
 import Footer from "./components/Footer";
 import KeroseneModal from "./components/KeroseneModal";
+import MissionGenerator from './components/MissionGenerator';
 
 export default function App() {
   const [isSupportOpen, setIsSupportOpen] = useState<boolean>(false);
   const [initialSuccessLiters, setInitialSuccessLiters] = useState<number | null>(null);
+  // 'home' pour la landing page générale, 'mission-generator' pour l'outil de briefing
+  const [currentView, setCurrentView] = useState<string>("home");
 
   // Parse Stripe redirect callbacks
   useEffect(() => {
