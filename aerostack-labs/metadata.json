@@ -1,0 +1,6 @@
+{
+  "name": "AeroStack Labs",
+  "description": "Studio d'ingénierie et d'outils web IA de combat pour les élèves-pilotes et passionnés d'aviation (BIA, LAPL, PPL).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
